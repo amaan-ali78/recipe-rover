@@ -1,0 +1,53 @@
+.outer{
+    width: 600px;
+    height: 150px;
+    color: #8d0801;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+}
+.imageContainer{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+.imageContainer img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    margin-left: 70px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px 0px;
+}
+.amount{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5px 0px;  
+}
+@media (max-width:600px) {
+    .outer{
+        width: 40vw;
+    }
+    .imageContainer{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .imageContainer img{
+        width: 100%;
+        height: auto;
+    }
+    .text{
+        margin-left: 10px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .amount{
+        font-size: 10px;
+    }
+}

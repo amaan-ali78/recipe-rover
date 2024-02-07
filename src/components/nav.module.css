@@ -14,7 +14,7 @@
 }
 .title{
     position: relative;
-    font-size: 50px;
+    font-size: 65px;
     margin:30px;
     font-weight: 900;
 }
@@ -38,7 +38,7 @@
         justify-content: flex-start;
     }
     .title{
-        font-size: 25px;
+        font-size: 35px;
     }
     .logo{
         margin-left: 25px;
