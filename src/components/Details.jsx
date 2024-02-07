@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./details.module.css";
 import IngredList from "./IngredList";
-const API_KEY = "6767e4169d4e4033a2a0cad619a58396";
+const API_KEY = "e64b3b7d05114cb9b10fcf86760fc222";
 export default function Details({ recipe, setRecipe, foodId }) {
   const URL = `https://api.spoonacular.com/recipes/${foodId}/information`;
   const [isLoading, setIsLoading] = useState(true);
